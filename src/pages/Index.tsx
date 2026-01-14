@@ -5,12 +5,12 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Startup Ambassadors Camp - 7 Kunlik Shaxsiy O'sish Tajribasi</title>
+        <title>Startup Ambassadors Camp - 7-Day Personal Growth Experience</title>
         <meta 
           name="description" 
-          content="Oltiariqdan boshlangan yo'l — 7 kunlik camp tajribasi. G'oyani realga aylantirish, jamoada ishlash va shaxsiy o'sish haqida ilhomlantiruvchi hikoya." 
+          content="A journey that began in Oltiariq — a 7-day camp experience. An inspiring story about turning ideas into reality, teamwork, and personal growth." 
         />
-        <meta name="keywords" content="camp tajribasi, 7 kun, shaxsiy o'sish, startup ambassadors, yoshlar ventures" />
+        <meta name="keywords" content="camp experience, 7 days, personal growth, startup ambassadors, yoshlar ventures" />
       </Helmet>
       <main className="min-h-screen bg-background">
         <CampConclusion />
