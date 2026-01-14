@@ -13,26 +13,26 @@ import reflectivePortrait from "@/assets/reflective-portrait.jpg";
 const lessons = [
   {
     icon: Lightbulb,
-    title: "G'oyani realga aylantirish",
+    title: "Turning ideas into reality",
     description:
-      "Xayoldagi fikr — faqat boshlanish. Uni qadam-baqadam amalga oshirish san'ati.",
+      "An idea in your head is only the beginning. The art is bringing it to life step by step.",
   },
   {
     icon: Target,
-    title: "Muammo validatsiyasi",
+    title: "Problem validation",
     description:
-      "Avval muammoni tushun, keyin yechim izla. Foydalanuvchi bilan gaplash — birinchi qadam.",
+      "Understand the problem first, then seek a solution. Talk to users—the first step.",
   },
   {
     icon: Sparkles,
-    title: "Pitch qilish",
+    title: "Pitching",
     description:
-      "3 daqiqada g'oyangni dunyoga tushuntir. Oddiy so'zlar, katta ma'no.",
+      "Explain your idea to the world in 3 minutes. Simple words, big meaning.",
   },
   {
     icon: Handshake,
-    title: "Jamoada ishlash",
-    description: "Yolg'iz tez yurasan, jamoa bilan uzoqqa borasan.",
+    title: "Working as a team",
+    description: "Alone you move fast; with a team, you go far.",
   },
 ];
 
@@ -64,17 +64,17 @@ export default function CampConclusion() {
         <header className="text-center mb-12 md:mb-16 animate-fade-in-up">
           <span className="inline-flex items-center gap-2 text-primary font-medium text-sm tracking-wide uppercase mb-4">
             <Heart className="w-4 h-4" aria-hidden="true" />
-            <span>Shaxsiy Tajriba</span>
+            <span>Personal Experience</span>
           </span>
           <h2
             id="conclusion-title"
             className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground leading-tight mb-6"
           >
-            Xulosa: Farg'onadan boshlangan yo'l —{" "}
-            <span className="text-gradient-warm">7 kunlik o'sish</span>
+            Conclusion: A journey that began in Fergana —{" "}
+            <span className="text-gradient-warm">7 days of growth</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Camp tajribasi • 7 kun • Shaxsiy o'sish
+            Camp experience • 7 days • Personal growth
           </p>
         </header>
 
@@ -85,47 +85,47 @@ export default function CampConclusion() {
         >
           <div className="prose prose-lg max-w-none">
             <p className="text-foreground text-lg md:text-xl leading-relaxed mb-6 first-letter:text-5xl first-letter:font-display first-letter:text-primary first-letter:float-left first-letter:mr-3 first-letter:mt-1">
-              Dadam "Ha, borib kel" deganda, yuragimda hayajon va xavotir
-              aralash edi — Oltiariq tumanidagi oddiy o'quvchi sifatida bu
-              sayohat qanchalik katta qadam ekanini sezardim. Campga yetib
-              kelganimda, ko'pchilik "prezident maktabi"dan ekan — men o'zimni
-              biroz chetda his qildim. Lekin 4 kishilik yotoqxonadagi birinchi
-              kechadan boshlab, bu his yo'qola boshladi: biz barchasi bir maqsad
-              sari intilgan yoshlar edik.
+              When my father said, "Yes, go and come back," my heart was mixed
+              with excitement and anxiety—as an ordinary student from Oltiariq
+              district, I felt how big a step this trip was. When I arrived at
+              the camp, most people were from the "presidential school"—I felt
+              a bit out of place. But from the first night in our four-person
+              dorm, that feeling began to fade: we were all young people
+              striving toward one goal.
             </p>
 
             <p className="text-foreground text-lg md:text-xl leading-relaxed mb-6">
-              Har kuni yangi mavzu, yangi ko'nikmalar: universitetlar haqida
-              ma'lumotlar, ML asoslari, startup g'oyalarini shakllantirish,
-              pitch qilish san'ati va eng muhimi — jamoada ishlash. Boshlanishda
-              startaplar haqida tushuncham juda kam edi, lekin bu 7 kun davomida
-              men{" "}
+              Every day brought new topics, new skills: information about
+              universities, ML fundamentals, shaping startup ideas, the art of
+              pitching, and most importantly—working as a team. At the
+              beginning, I knew very little about startups, but over these 7
+              days I{" "}
               <strong className="text-primary">
-                g'oyani realga aylantirishni
+                learned how to turn ideas into reality
               </strong>
               ,{" "}
               <strong className="text-primary">
-                muammoni to'g'ri aniqlashni
+                identify the problem correctly
               </strong>
               ,{" "}
               <strong className="text-primary">
-                3 daqiqada g'oyamni tushuntirishni
+                explain my idea in three minutes
               </strong>{" "}
-              va{" "}
+              and{" "}
               <strong className="text-primary">
-                jamoa bilan birgalikda natijalarga erishishni
-              </strong>{" "}
-              o'rgandim.
+                achieve results together as a team
+              </strong>
+              .
             </p>
 
             <p className="text-foreground text-lg md:text-xl leading-relaxed">
-              Mentorlarimiz — Alisher Sadullayev Zafarovich, Abdulaziz Yakubov,
+              Our mentors—Alisher Sadullayev Zafarovich, Abdulaziz Yakubov,
               Orzugul Umarovna, Azizbek Kurbonov, Alisher Alimov, Gulasal
-              Butaeva, Firdavs O'rinov va butun{" "}
-              <strong>Startup Ambassadors</strong> hamda{" "}
-              <strong>Yoshlar Ventures</strong> jamoasi — menga nafaqat bilim,
-              balki ishonch berdilar. Ular aytishdi: "Sen ham qila olasan" — va
-              men bunga ishondim.
+              Butaeva, Firdavs O'rinov, and the entire{" "}
+              <strong>Startup Ambassadors</strong> and{" "}
+              <strong>Yoshlar Ventures</strong> team—gave me not only knowledge
+              but also confidence. They said, "You can do it too"—and I believed
+              it.
             </p>
           </div>
         </article>
@@ -166,12 +166,12 @@ export default function CampConclusion() {
           >
             <img
               src={campFarewell}
-              alt="Campdagi xayrlashuv sahnasi — ishtirokchilar quchoqlashmoqda, kechki quyosh nurida"
+              alt="Farewell scene at camp — participants hugging in the evening sunlight"
               className="w-full h-64 md:h-80 object-cover transition-transform duration-500 group-hover:scale-105"
               loading="lazy"
             />
             <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-foreground/80 to-transparent p-4 text-primary-foreground text-sm">
-              Xayrlashuv lahzasi — do'stlik abadiy qoladi
+              A farewell moment—friendship lasts forever
             </figcaption>
           </figure>
 
@@ -181,12 +181,12 @@ export default function CampConclusion() {
           >
             <img
               src={reflectivePortrait}
-              alt="Yosh ishtirokchi kelajak haqida o'ylamoqda — oyna oldida reflektiv lahza"
+              alt="A young participant thinking about the future — a reflective moment by a window"
               className="w-full h-64 md:h-80 object-cover object-top transition-transform duration-500 group-hover:scale-105"
               loading="lazy"
             />
             <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-foreground/80 to-transparent p-4 text-primary-foreground text-sm">
-              Kelajakka ishonch — bu camp menga bergan eng katta sovg'a
+              Confidence in the future—the biggest gift this camp gave me
             </figcaption>
           </figure>
         </div>
@@ -203,18 +203,16 @@ export default function CampConclusion() {
             />
             <div>
               <h3 className="text-xl md:text-2xl font-display font-bold text-foreground mb-4">
-                Kelajakka qarab
+                Looking ahead
               </h3>
               <p className="text-foreground text-lg leading-relaxed">
-                Endi men o'rganilganlarni amalda sinab ko'rmoqchiman.
-                Startaplarga ishlash, mintaqamdagi yoshlarni qo'llab-quvvatlash
-                va texnologiya orqali haqiqiy muammolarni hal qilish — mening
-                yo'lim shu.{" "}
+                Now I want to put what I've learned into practice. Building
+                startups, supporting young people in my region, and solving real
+                problems through technology—this is my path.{" "}
                 <span className="font-semibold text-primary">
-                  Oltiariqdan chiqqan oddiy o'quvchi endi katta orzularga
-                  intiladi
+                  An ordinary student from Oltiariq now aims for big dreams
                 </span>{" "}
-                — va bu camp menga dastlabki qadamni qo'yishga yordam berdi.
+                —and this camp helped me take the first step.
               </p>
             </div>
           </div>
@@ -225,7 +223,7 @@ export default function CampConclusion() {
           className="text-center mb-12 animate-fade-in-up"
           style={{ animationDelay: "0.8s" }}
         >
-          <p className="text-muted-foreground mb-4">Alohida minnatdorchilik:</p>
+          <p className="text-muted-foreground mb-4">Special thanks:</p>
           <div className="flex flex-wrap justify-center gap-2">
             {mentors.map((mentor) => (
               <span
@@ -250,11 +248,11 @@ export default function CampConclusion() {
           style={{ animationDelay: "0.9s" }}
         >
           <p className="text-foreground text-lg md:text-xl mb-6 font-serif italic">
-            "Har bir katta sayohat bitta qadam bilan boshlanadi. Mening qadamim
-            — bu camp edi."
+            "Every great journey begins with a single step. My step was this
+            camp."
           </p>
           <p className="text-muted-foreground text-sm mt-4">
-            Siz ham o'z g'oyangizni amalga oshiring — biz yordam beramiz.
+            Bring your own idea to life—we'll help.
           </p>
         </div>
       </div>
